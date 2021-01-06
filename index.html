@@ -15,6 +15,7 @@
     <!--Web Font-->
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fb0bff0143.js" crossorigin="anonymous"></script>
 
     <!--Open Graph data-->
     <meta property="og:title" content="Reservia">
@@ -36,28 +37,41 @@
     <!--Header nav-->
     <header class="navbar">
             <div class="container">
-                <div class="row">
-                    <div class="col-md-6">
+                <div class="row col-md-12">
+                    <div class="col-md-4">
                             <a href="index.html" title="logo"><img src="css/img/Reservia.svg"></a>
                     </div>
-                    <div class="col-md-6">
+                    <div class="row col-md-8">
+                        <div class="col-md-11">
                             <nav>
                                 <a href="#section_marseille"class="active">Hébergements</a>
                                 <a href="#section_activities">Activités</a>
                             </nav>
-                        <p>button</p>
+                        </div>
+                        <div class="col-md-1">
+                        <a href="#">S'inscrire</a>
+                        </div>
                     </div>
                 </div>
             </div> 
     </header>
 
-    <!--Section Searchbar-->
-    <section id="section_searchbar">
+    <!--Section Headings-->
+    <section id="section_headings">
         <div class="container">
-            <div class="col-md-6">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+                <h2>Trouvez votre hébergement pour des vacances de rêve</h2>
                 <p>En plein centre ville ou en pleine nature</p>
                 <form></form>
+        </div>
+    </section>
+
+    <!--Searchbar-->
+    <section id="searchbar">
+        <div class="container">
+            <div class="row col-md-4">
+                <i class="fas fa-map-marker-alt fa-2x"></i>
+                <input type="text">
+                <button>Rechercher</button>
             </div>
         </div>
     </section>
@@ -65,29 +79,62 @@
     <!--Section Filter-->
     <section id="section_filter">
         <div class="container">
-            <div class="col-md-9">
-                <p>Filtres</p>
-                <form></form>
+            <div class="row col-md-10">
+                <div class="col-md-1">
+                    <p>Filtres</p>
+                </div>
+                <div class="row col-md-11">
+                    <div class="col-md-3">
+                        <i class="fas fa-money-bill-wave"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-child"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <div class="col-md-3">
+                        <i class="fas fa-dog"></i>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="col-md-1">
-            <icon></icon>
-            <p>Plus de 500 logements sont disponibles dans cette ville</p>
-        </div>
     </section>
+
+    <div class="container">
+        <div class="row col-md-12">
+                <p><i class="fas fa-info-circle"></i>Plus de 500 logements sont disponibles dans cette ville</p>
+        </div>
+    </div>
 
     <!--Section Marseille and popular-->
     <section id="section_marseille">
         <div class="container">
-            <div class="col-md-9">
-                <h1>Hébergements à Marseille</h1>
-                <form></form>
-                <button></button>
-            </div>
-            <div class="col-md-3">
-                <h1>Les plus populaires</h1>
-                <icon></icon>
-                <form></form>
+            <h2>Hébergements à Marseille</h2>
+            <div class="row col-md-12">
+                <div class="row col-md-8">
+                    <div class="row">
+                        <div class="col-md-4">Image</div>
+                        <div class="col-md-4">Image</div>
+                        <div class="col-md-4">Image</div>
+                    </div>
+                    <div class="col-md-12">
+                        <p>Afficher plus</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="row">
+                        <div class="col-md-11">
+                            <h2>Les plus populaires</h2>
+                        </div>
+                        <div class="col-md-1">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                    </div>
+                    <div class="col-md-12">Image</div>
+                    <div class="col-md-12">Image</div>
+                    <div class="col-md-12">Image</div>
+                </div>
             </div>
         </div>
     </section>
@@ -95,10 +142,31 @@
     <!--Section activities-->
     <section id="section_activities">
         <div class="container">
-            <div class="col-md-1">
-                <h1>Activités à Marseille</h1>
-                <gallery></gallery>
-            </div>
+            <h2>Activités à Marseille</h2>
+                <div class="row">
+                    <div class="col-md-3">
+                        Image pleine
+                    </div>
+                    <div class="row col-md-3">
+                        <div class="col-md-12">
+                            Image petite
+                        </div>
+                        <div class="col-md-12">
+                            Image petite
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        Image pleine
+                    </div>
+                    <div class="row col-md-3">
+                        <div class="col-md-12">
+                            Image petite
+                        </div>
+                        <div class="col-md-12">
+                            Image petite
+                        </div>
+                    </div>   
+                </div> 
         </div>
     </section>
 </body>
@@ -107,28 +175,28 @@
 <footer>
     <section id="footer">
         <div class="container">
-            <div class="col-md-1">
+            <div class="row">
                 <div class="A propos col-md-4">
-                <h4>A propos</h4>
-                <ul>
-                    <li>Fonctionnement du site</li>
-                    <li>Conditions générales de vente</li>
-                    <li>Données et confidentialité</li>
-                </ul>
+                    <h4>A propos</h4>
+                    <ul>
+                        <li>Fonctionnement du site</li>
+                        <li>Conditions générales de vente</li>
+                        <li>Données et confidentialité</li>
+                    </ul>
                 </div>
                 <div class="Hebergements col-md-4">
-                <h4>Nos hébergements</h4>
-                <ul>
-                    <li>Charte qualité</li>
-                    <li>Soumettre votre hôtel</li>
-                </ul>
+                    <h4>Nos hébergements</h4>
+                    <ul>
+                        <li>Charte qualité</li>
+                        <li>Soumettre votre hôtel</li>
+                    </ul>
                 </div>
                 <div class="Assistance col-md-4">
-                <h4>Assistance</h4>
-                <ul>
-                    <li>Centre d'aide</li>
-                    <li>Nous contacter</li>
-                </ul>
+                    <h4>Assistance</h4>
+                    <ul>
+                        <li>Centre d'aide</li>
+                        <li>Nous contacter</li>
+                    </ul>
                 </div>
             </div>
         </div>
