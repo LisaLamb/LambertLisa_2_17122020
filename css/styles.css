@@ -1,13 +1,24 @@
 /*Main*/
+*{
+    box-sizing:border-box;
+}
 body,html {
 font-family:'Raleway', sans-serif;
 color: #000000;
+flex-direction: row;
+
 }
 
 h1{
 font-size:"5px";
 
 }
+
+.nav{
+    display:flex;
+    flex-wrap: wrap;
+}
+
 
 
 
