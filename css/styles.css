@@ -219,6 +219,8 @@ margin:10px 0 10px 10px;
 #recherche{
 padding-bottom:30px;
 padding-left:10px;
+display:flex;
+justify-content:left;
 }
 
 #recherche button{
@@ -258,7 +260,7 @@ font-weight: bold;
 
     html #marseille .cadre{
         border: solid 5px white;
-        width:400px;
+        width:100%;
         background-color:#fff;
         border-radius:10px;
         padding:0px;
@@ -267,8 +269,8 @@ font-weight: bold;
         grid-column: 1 / 3;
     }
     html #marseille img{
-        width:auto;
-        height:150px;
+        width:100%;
+        height:200px;
         text-align:center;
     }
 
@@ -278,14 +280,13 @@ font-weight: bold;
 
     html #populaires .cadrelong {
         border: solid 4px white;
-        width:400px;
+        width:100%;
         background-color:#fff;
         border-radius:10px;
         padding:0px;
         margin-bottom: 5px;
         box-shadow: 5px 5px 5px lightgray;
-        grid-column: 1 / 3;
-        grid-row: 1;
+        display:flex;
     }
 
     aside{
@@ -293,14 +294,15 @@ font-weight: bold;
     }
 
     .photo{
-        grid-column: 1 / 3;
-        grid-row: 1;
+        display:flex;
+        flex-direction: left;
     }
 
     .texte{
-        grid-column: 3/ 13;
-        grid-row: 1;
+       display:flex;
+       flex-direction:right;
     }
+
     html #populaires img{
         width:200px;
         height:180px;
