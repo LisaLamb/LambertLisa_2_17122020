@@ -248,7 +248,7 @@ font-weight: bold;
     display:flex;
     justify-content:center;
 }
-@media only screen and (max-width: 991px) {
+@media only screen and (max-width: 992px) {
     #section_filter p{
         font-size:9pt;
         display:flex;
@@ -343,84 +343,7 @@ flex-direction:left;
  }
 }
 
-@media only screen and (min-width: 634px) and (max-width:1370) { 
 
-    #section_filter p{
-        font-size:9pt;
-    }
-
-    html #marseille .cadre{
-        border: solid 5px white;
-        width:100%;
-        background-color:#fff;
-        border-radius:10px;
-        padding:0px;
-        margin-bottom:5px;
-        box-shadow: 5px 5px 5px lightgray;
-        grid-column: 1 / 3;
-    }
-    html #marseille img{
-        width:100%;
-        height:200px;
-        text-align:center;
-    }
-
-    .border{
-        background-color:white;
-    }
-
-    html #populaires .cadrelong {
-        border: solid 4px white;
-        width:100%;
-        background-color:#fff;
-        border-radius:10px;
-        padding:0px;
-        margin-bottom: 5px;
-        box-shadow: 5px 5px 5px lightgray;
-        display:flex;
-    }
-
-    aside{
-        background-color:#F6F6F6 !important;
-    }
-
-    .photo{
-        display:flex;
-        flex-direction: left;
-    }
-
-    .texte{
-       display:flex;
-       flex-direction:right;
-    }
-
-    html #populaires img{
-        width:200px;
-        height:180px;
-        text-align:center;
-        border-radius:10px 0px 0px 10px;
-    }
-
-    html .large1,  html .large2 .double, html .large3, html .large4 .double{
-        width:100%;
-    }
-
-    html .large1 img, html .large2 .double img,  html .large3 img, html .large4 .double img{
-        width:100%;
-        height:250px;
-    }
- html .containerfooter{
-display:flex;
-flex-direction:left;
- }
-    
- html #footer{
-     padding-top:0px;
- }
-}
-
-
-}
 #section_filter p:first-child{
     justify-content:left;
 }
