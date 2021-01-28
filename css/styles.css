@@ -193,11 +193,11 @@ nav a:focus{
     margin-left:10px;
 }
 #titre1 h2 {
-margin:0 0 0 10px;
+margin:0 0 20px 10px;
 }
 
 #titre2 p{
-margin:10px 0 10px 10px;
+margin:10px 0 20px 10px;
 }
 
 #recherche #cadreicone{
@@ -247,6 +247,11 @@ font-weight: bold;
     font-size:9pt;
     display:flex;
     justify-content:center;
+    border:1px solid;
+    border-color:lightgray lightgray lightgray #DEEBFF;
+    max-height:42px;
+    max-width:150px;
+    border-radius:30px;
 }
 @media only screen and (max-width: 992px) {
     #section_filter p{
@@ -260,6 +265,10 @@ font-weight: bold;
         grid-template-columns: minmax(200px, 1fr);
         grid-auto-rows: minmax(100px, auto);
         grid-gap: 20px;
+    }
+
+    #flex{
+        display:flex;
     }
 
     .containeractivities{
@@ -314,13 +323,12 @@ font-weight: bold;
     }
 
     .texte{
-       display:flex;
-       flex-direction:right;
+       display:block;
     }
 
     html #populaires img{
-        width:200px;
-        height:180px;
+        max-width:200px;
+        max-height:180px;
         text-align:center;
         border-radius:10px 0px 0px 10px;
     }
