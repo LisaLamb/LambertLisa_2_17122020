@@ -415,7 +415,7 @@ flex-direction:left;
 }
 }
 
-@media only screen and (min-width:375px)and (max-width: 495px){
+@media only screen and (min-width:376px)and (max-width: 495px){
     html #populaires .cadrelong .photo img.left{
         max-width: 120px !important;
         max-height: 90px !important;
@@ -486,6 +486,93 @@ flex-direction:left;
         display:flex!important;
         flex-direction:column !important;
         }
+}
+
+@media only screen and (min-width:321px)and (max-width: 375px){
+    html #populaires .cadrelong .photo img.left{
+        max-width: 120px !important;
+        max-height: 90px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+    html #populaires .cadrelong .photo img{
+        max-width: 120px !important;
+        max-height: 90px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    html #populaires .cadrelong {
+        border: solid 4px white;
+        width:100%;
+        background-color:#fff;
+        border-radius:10px;
+        padding:0px;
+        margin-bottom:5px;
+        box-shadow: 5px 5px 5px lightgray;
+        display:flex;
+    }
+
+    .texte h5, .texte p, .texte span, .texte p.small{
+        margin:0px;
+        padding:0px;
+        padding-bottom:0px !important;
+    }
+    #populaires .fas.fa-chart-line{
+        margin-left:30px !important;
+    }
+
+    #marseille .cadre{
+        width:290px !important;
+        height:220px !important;
+    }
+
+    #marseille img{
+        width:290px !important;
+        height:150px !important;
+    }
+
+    article h2{
+        font-size:1.4em;
+    }
+
+    aside h2{
+        font-size:1.4em;
+    }
+
+    nav a:focus{
+        color:#0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top:none;
+    }
+
+   #populaires{
+        margin-left:0px !important;
+    }
+
+    .containeractivities .large1{
+    height: 240px !important;
+   
+    }
+
+    .large1 img{
+        height:200px !important;
+    }
+
+    .containeractivities .large3{
+        height: 240px !important;
+       
+        }
+
+    .large3 img{
+            height:200px !important;
+        }
+    
+    html .containerfooter{
+        display:flex!important;
+        flex-direction:column !important;
+        }
+}
 }
 
 /*Hébergements*/
