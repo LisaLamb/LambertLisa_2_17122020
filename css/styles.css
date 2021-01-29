@@ -573,8 +573,114 @@ flex-direction:left;
         flex-direction:column !important;
         }
 }
-}
+@media only screen and (max-width: 320px){
+    html #populaires .cadrelong .photo img.left{
+        max-width: 100px !important;
+        max-height: 100px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+    html #populaires .cadrelong .photo img{
+        max-width: 100px !important;
+        max-height: 100px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
 
+    html #populaires .cadrelong {
+        border: solid 4px white;
+        width:100%;
+        background-color:#fff;
+        border-radius:10px;
+        padding:0px;
+        margin-bottom:5px;
+        box-shadow: 5px 5px 5px lightgray;
+        display:flex;
+    }
+
+    .texte h5, .texte p, .texte span, .texte p.small{
+        margin:0px;
+        padding:0px;
+        padding-bottom:0px !important;
+    }
+    #populaires .fas.fa-chart-line{
+        margin-left:55px !important;
+    }
+
+    #populaires h2{
+        padding-left:0px !important;
+    }
+
+    #marseille .cadre{
+        width:230px !important;
+        height:220px !important;
+    }
+
+    #marseille img{
+        width:230px !important;
+        height:150px !important;
+    }
+
+    article h2{
+        font-size:1.1em;
+    }
+
+    aside h2{
+        font-size:1.1em;
+    }
+
+    nav a:focus{
+        color:#0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top:none;
+    }
+
+   #populaires{
+        margin-left:0px !important;
+    }
+
+    .containeractivities .large1{
+    height: 240px !important;
+    width:100%;
+   
+    }
+
+    .large1 img{
+        height:200px !important;
+        width:100% !important;
+    }
+
+    .containeractivities .large3{
+        height: 240px !important;
+        width:100%;
+       
+        }
+
+    .containeractivities .large2 .double{
+        width:100% !important;
+    }
+    .containeractivities .large2 .double img{
+        width:100% !important;
+    }
+
+    .containeractivities .large4 .double{
+        width:100% !important;
+    }
+    .containeractivities .large4 .double img{
+        width:100% !important;
+    }
+
+    .large3 img{
+            height:200px !important;
+            width:100% !important;
+        }
+    
+    html .containerfooter{
+        display:flex!important;
+        flex-direction:column !important;
+        }
+
+}
 /*Hébergements*/
 
 #marseille img{
