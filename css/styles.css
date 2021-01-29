@@ -405,6 +405,25 @@ flex-direction:left;
     margin-bottom:20px;
 }
 
+@media only screen and (max-width: 565px) {
+#flex{
+    flex-direction: column;
+}
+
+#populaires .fas.fa-chart-line{
+    margin-left:100px !important;
+}
+}
+
+@media only screen and (max-width: 495px){
+    html img.left{
+        max-width: 120px !important;
+        max-height: 90px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+}
+
 /*Hébergements*/
 
 #marseille img{
