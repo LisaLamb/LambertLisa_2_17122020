@@ -264,6 +264,13 @@ font-weight: bold;
         flex-direction:column;
     }
 
+    nav a:focus{
+        color:#0065FC;
+        border-bottom: 2px solid #0065FC;
+        border-top:none;
+
+    }
+
     .container {
         display: grid;
         grid-template-columns: minmax(200px, 1fr);
