@@ -211,6 +211,7 @@ margin:10px 0 20px 10px;
 #recherche .fas.fa-map-marker-alt{
     display:flex;
     justify-content:center;
+    align-items:center;
 }
 
 #recherche{
@@ -246,7 +247,6 @@ font-weight: bold;
 #section_filter p{
     font-size:9pt;
     display:flex;
-    justify-content:center;
     border:1px solid;
     border-color:lightgray lightgray lightgray #DEEBFF;
     max-height:42px;
@@ -258,6 +258,10 @@ font-weight: bold;
         font-size:9pt;
         display:flex;
         justify-content:left;
+    }
+
+    .containerfooter{
+        flex-direction:column;
     }
 
     .container {
@@ -354,6 +358,7 @@ flex-direction:left;
 
 #section_filter p:first-child{
     justify-content:left;
+    margin-left:5px;
 }
 
 #section_filter #cadreblue{
