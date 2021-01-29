@@ -253,7 +253,7 @@ font-weight: bold;
     max-width:150px;
     border-radius:30px;
 }
-@media only screen and (max-width: 992px) {
+@media only screen and (min-width:566px) and (max-width: 992px) {
     #section_filter p{
         font-size:9pt;
         display:flex;
@@ -405,7 +405,7 @@ flex-direction:left;
     margin-bottom:20px;
 }
 
-@media only screen and (max-width: 565px) {
+@media only screen and (min-width:496px) and (max-width: 565px) {
 #flex{
     flex-direction: column;
 }
@@ -416,12 +416,76 @@ flex-direction:left;
 }
 
 @media only screen and (max-width: 495px){
-    html img.left{
+    html #populaires .cadrelong .photo img.left{
         max-width: 120px !important;
         max-height: 90px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
     }
+    html #populaires .cadrelong .photo img{
+        max-width: 120px !important;
+        max-height: 90px !important;
+        text-align: center;
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    html #populaires .cadrelong {
+        border: solid 4px white;
+        width:100%;
+        background-color:#fff;
+        border-radius:10px;
+        padding:0px;
+        margin-bottom:5px;
+        box-shadow: 5px 5px 5px lightgray;
+        display:flex;
+    }
+
+    .texte h5, .texte p, .texte span, .texte p.small{
+        margin:0px;
+        padding:0px;
+        padding-bottom:0px !important;
+    }
+
+    #populaires .fas.fa-chart-line{
+        margin-left:50px !important;
+    }
+
+    #marseille .cadre{
+        width:325px !important;
+        height:220px !important;
+    }
+
+    #marseille img{
+        width:325px !important;
+        height:150px !important;
+    }
+
+   #populaires{
+        margin-left:0px !important;
+    }
+
+    .containeractivities .large1{
+    height: 240px !important;
+   
+    }
+
+    .large1 img{
+        height:200px !important;
+    }
+
+    .containeractivities .large3{
+        height: 240px !important;
+       
+        }
+
+    .large3 img{
+            height:200px !important;
+        }
+    
+    html .containerfooter{
+        display:flex !important;
+        flex-direction:column !important;
+        }
 }
 
 /*Hébergements*/
