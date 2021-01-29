@@ -253,6 +253,126 @@ font-weight: bold;
     max-width:150px;
     border-radius:30px;
 }
+@media only screen and (min-width:993px) and (max-width: 1200px){
+
+    .container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(170px, auto));
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;
+    }
+
+    #logo{
+        grid-column: 1/2;
+        grid-row: 1;
+    }
+
+    #menu {
+        grid-column: 2/6;
+        grid-row: 1;
+    }
+
+#bouton{
+    grid-column: 6/13;
+    grid-row: 1;
+}
+article{
+grid-column: 1 / 4;
+grid-row: 1;
+}
+aside {
+    grid-column: 4 / 13;
+    grid-row: 1;
+    width:350px;
+}
+#populaires .fas.fa-chart-line{
+    margin-left:80px !important;
+}
+
+#populaires .cadrelong img{
+    width:150px;
+    height:100%
+
+}
+#marseille.container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(145px, auto));
+    grid-auto-rows: minmax(100px, auto);
+    grid-gap: 20px;
+}
+#marseille .cadre {
+    border: solid 5px white;
+    width: 150px !important;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 0px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+#marseille .cadre img {
+    float: top;
+    text-align: center;
+    border-radius: 10px 10px 0px 0px;
+    margin-left: 2px;
+    width:100%!important;
+}
+
+    html #populaires .cadrelong {
+        border: solid 4px white;
+        width:100%;
+        background-color:#fff;
+        border-radius:10px;
+        padding:0px;
+        margin-bottom: 5px;
+        box-shadow: 5px 5px 5px lightgray;
+        display:flex;
+    }
+
+    .containeractivities {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+        grid-auto-rows: minmax(100px, auto);
+        grid-gap: 20px;
+    }
+
+    .containeractivities .large1{
+        height: 500px !important;
+        width:100%;
+       
+        }
+    
+        .large1 img{
+            height:450px !important;
+            width:100% !important;
+        }
+    
+        .containeractivities .large3{
+            height: 500px !important;
+            width:100%;
+           
+            }
+    
+        .containeractivities .large2 .double{
+            width:100% !important;
+        }
+        .containeractivities .large2 .double img{
+            width:100% !important;
+        }
+    
+        .containeractivities .large4 .double{
+            width:100% !important;
+        }
+        .containeractivities .large4 .double img{
+            width:100% !important;
+        }
+    
+        .large3 img{
+                height:450px !important;
+                width:100% !important;
+            }
+}
 @media only screen and (min-width:566px) and (max-width: 992px) {
     #section_filter p{
         font-size:9pt;
@@ -463,24 +583,41 @@ flex-direction:left;
    #populaires{
         margin-left:0px !important;
     }
-
     .containeractivities .large1{
-    height: 240px !important;
-   
-    }
-
-    .large1 img{
-        height:200px !important;
-    }
-
-    .containeractivities .large3{
         height: 240px !important;
+        width:100%;
        
         }
-
-    .large3 img{
+    
+        .large1 img{
             height:200px !important;
+            width:100% !important;
         }
+    
+        .containeractivities .large3{
+            height: 240px !important;
+            width:100%;
+           
+            }
+    
+        .containeractivities .large2 .double{
+            width:100% !important;
+        }
+        .containeractivities .large2 .double img{
+            width:100% !important;
+        }
+    
+        .containeractivities .large4 .double{
+            width:100% !important;
+        }
+        .containeractivities .large4 .double img{
+            width:100% !important;
+        }
+    
+        .large3 img{
+                height:200px !important;
+                width:100% !important;
+            }
     
     html .containerfooter{
         display:flex!important;
