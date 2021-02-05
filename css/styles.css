@@ -448,11 +448,6 @@ aside {
         background-color:#F6F6F6 !important;
     }
 
-    .photo{
-        display:flex;
-        flex-direction: left;
-    }
-
     .texte{
        display:block;
     }
@@ -472,10 +467,6 @@ aside {
         width:100%;
         height:250px;
     }
- html .containerfooter{
-display:flex;
-flex-direction:left;
- }
     
  html #footer{
      padding-top:0px;
@@ -488,7 +479,7 @@ flex-direction:left;
     margin-left:5px;
 }
 
-#section_filter #cadreblue{
+#section_filter .cadreblue{
     border: solid 1px#DEEBFF;
     background-color:#DEEBFF;
     width:40px;
@@ -497,7 +488,7 @@ flex-direction:left;
     padding:0px;
     align-items: center;
 }
-#cadreblue::before{
+.cadreblue::before{
     align-items: center;
 }
 

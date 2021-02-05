@@ -37,11 +37,11 @@
     <header class="navbar">
             <div class="container">
                     <div id="logo">
-                            <a href="index.html" title="logo"><img src="css/img/Reservia.svg"></a>
+                            <a href="index.html" title="logo"><img src="css/img/Reservia.svg" alt="logo"></a>
                     </div>
                     <div id="menu">
                             <nav>
-                                <a href="#section_marseille"class="active">Hébergements</a>
+                                <a href="#section_marseille" class="active">Hébergements</a>
                                 <a href="#section_activities">Activités</a>
                             </nav>
                     </div>
@@ -61,7 +61,7 @@
 
     <!--Searchbar-->
             <div id="recherche">
-                <i id="cadreicone"class="fas fa-map-marker-alt"></i>
+                <i id="cadreicone" class="fas fa-map-marker-alt"></i>
                 <input type="text" value="Marseille, France">
                 <button>Rechercher</button>
             </div>
@@ -70,10 +70,10 @@
     <section id="section_filter">
         <div id="flex" class="container">
                     <p><strong>Filtres</strong></p>
-                        <p><i id="cadreblue" class="fas fa-money-bill-wave"></i><strong>Economique</strong></p>
-                        <p><i id="cadreblue" class="fas fa-child"></i><strong>Familial</strong></p>
-                        <p><i id="cadreblue" class="fas fa-heart"></i><strong>Romantique</strong></p>
-                        <p><i id="cadreblue" class="fas fa-dog"></i><strong>Animaux autorisés</strong></p>
+                        <p><i class="fas fa-money-bill-wave cadreblue"></i><strong>Economique</strong></p>
+                        <p><i class="fas fa-child cadreblue"></i><strong>Familial</strong></p>
+                        <p><i class="fas fa-heart cadreblue"></i><strong>Romantique</strong></p>
+                        <p><i class="fas fa-dog cadreblue"></i><strong>Animaux autorisés</strong></p>
         </div>
     </section>
 
@@ -238,34 +238,33 @@
                     </div>    
         </div>
     </section>
-</body>
 
 <!--Footer-->
 <footer id="footer">
-        <div class="containerfooter">
-            <div class="Apropos">
-                <h4>A propos</h4>
+    <div class="containerfooter">
+        <div class="Apropos">
+            <h4>A propos</h4>
+            <ul>
+                <li><a href="#">Fonctionnement du site</a></li>
+                <li><a href="#">Conditions générales de vente</a></li>
+                <li><a href="#">Données et confidentialité</a></li>
+            </ul>
+        </div>
+        <div class="Hebergements">
+                <h4>Nos hébergements</h4>
                 <ul>
-                    <li><a href="#">Fonctionnement du site</a></li>
-                    <li><a href="#">Conditions générales de vente</a></li>
-                    <li><a href="#">Données et confidentialité</a></li>
+                    <li><a href="#">Charte qualité</a></li>
+                    <li><a href="#">Soumettre votre hôtel</a></li>
                 </ul>
             </div>
-            <div class="Hebergements">
-                    <h4>Nos hébergements</h4>
-                    <ul>
-                        <li><a href="#">Charte qualité</a></li>
-                        <li><a href="#">Soumettre votre hôtel</a></li>
-                    </ul>
-                </div>
-                <div class="Assistance">
-                    <h4>Assistance</h4>
-                    <ul>
-                        <li><a href="#">Centre d'aide</a></li>
-                        <li><a href="#">Nous contacter</a></li>
-                    </ul>
-                </div>
+            <div class="Assistance">
+                <h4>Assistance</h4>
+                <ul>
+                    <li><a href="#">Centre d'aide</a></li>
+                    <li><a href="#">Nous contacter</a></li>
+                </ul>
             </div>
+        </div>
 </footer>
-
+</body>
 </html>
