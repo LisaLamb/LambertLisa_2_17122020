@@ -291,7 +291,8 @@ aside {
 
 #populaires .cadrelong img{
     width:150px;
-    height:100%
+    height:100%;
+    object-fit:contain;
 
 }
 #marseille.container{
@@ -317,6 +318,7 @@ aside {
     border-radius: 10px 10px 0px 0px;
     margin-left: 2px;
     width:100%!important;
+    object-fit:cover;
 }
 
     html #populaires .cadrelong {
@@ -346,6 +348,7 @@ aside {
         .large1 img{
             height:450px !important;
             width:100% !important;
+            object-fit:cover;
         }
     
         .containeractivities .large3{
@@ -359,6 +362,7 @@ aside {
         }
         .containeractivities .large2 .double img{
             width:100% !important;
+            object-fit:cover;
         }
     
         .containeractivities .large4 .double{
@@ -366,11 +370,13 @@ aside {
         }
         .containeractivities .large4 .double img{
             width:100% !important;
+            object-fit:cover;
         }
     
         .large3 img{
                 height:450px !important;
                 width:100% !important;
+                object-fit:cover;
             }
 }
 @media only screen and (min-width:566px) and (max-width: 992px) {
@@ -427,6 +433,7 @@ aside {
         width:100%;
         height:200px;
         text-align:center;
+        object-fit:cover;
     }
 
     .border{
@@ -457,6 +464,7 @@ aside {
         max-height:180px;
         text-align:center;
         border-radius:10px 0px 0px 10px;
+        object-fit:cover;
     }
 
     html .large1,  html .large2 .double, html .large3, html .large4 .double{
@@ -466,6 +474,7 @@ aside {
     html .large1 img, html .large2 .double img,  html .large3 img, html .large4 .double img{
         width:100%;
         height:250px;
+        object-fit:cover;
     }
     
  html #footer{
@@ -538,6 +547,7 @@ aside {
         max-height: 90px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
+        object-fit:cover;
     }
 
     html #populaires .cadrelong {
@@ -569,6 +579,7 @@ aside {
     #marseille img{
         width:325px !important;
         height:150px !important;
+        object-fit:cover;
     }
 
    #populaires{
@@ -583,6 +594,7 @@ aside {
         .large1 img{
             height:200px !important;
             width:100% !important;
+            object-fit:cover;
         }
     
         .containeractivities .large3{
@@ -596,6 +608,7 @@ aside {
         }
         .containeractivities .large2 .double img{
             width:100% !important;
+            object-fit:cover;
         }
     
         .containeractivities .large4 .double{
@@ -603,11 +616,13 @@ aside {
         }
         .containeractivities .large4 .double img{
             width:100% !important;
+            object-fit:cover;
         }
     
         .large3 img{
                 height:200px !important;
                 width:100% !important;
+                object-fit:cover;
             }
     
     html .containerfooter{
@@ -622,12 +637,14 @@ aside {
         max-height: 90px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
+        object-fit:cover;
     }
     html #populaires .cadrelong .photo img{
         max-width: 120px !important;
         max-height: 90px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
+        object-fit:cover;
     }
 
     html #populaires .cadrelong {
@@ -658,6 +675,7 @@ aside {
     #marseille img{
         width:290px !important;
         height:150px !important;
+        object-fit:cover;
     }
 
     article h2{
@@ -685,6 +703,7 @@ aside {
 
     .large1 img{
         height:200px !important;
+        object-fit:cover;
     }
 
     .containeractivities .large3{
@@ -694,6 +713,7 @@ aside {
 
     .large3 img{
             height:200px !important;
+            object-fit:cover;
         }
     
     html .containerfooter{
@@ -707,12 +727,14 @@ aside {
         max-height: 100px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
+        object-fit:cover;
     }
     html #populaires .cadrelong .photo img{
         max-width: 100px !important;
         max-height: 100px !important;
         text-align: center;
         border-radius: 10px 0px 0px 10px;
+        object-fit:cover;
     }
 
     html #populaires .cadrelong {
@@ -747,6 +769,7 @@ aside {
     #marseille img{
         width:230px !important;
         height:150px !important;
+        object-fit:cover;
     }
 
     article h2{
@@ -776,6 +799,7 @@ aside {
     .large1 img{
         height:200px !important;
         width:100% !important;
+        object-fit:cover;
     }
 
     .containeractivities .large3{
@@ -789,6 +813,7 @@ aside {
     }
     .containeractivities .large2 .double img{
         width:100% !important;
+        object-fit:cover;
     }
 
     .containeractivities .large4 .double{
@@ -796,11 +821,13 @@ aside {
     }
     .containeractivities .large4 .double img{
         width:100% !important;
+        object-fit:cover;
     }
 
     .large3 img{
             height:200px !important;
             width:100% !important;
+            object-fit:cover;
         }
     
     html .containerfooter{
@@ -815,6 +842,7 @@ aside {
     width:250px;
     height:125px;
     text-align:center;
+    object-fit:cover;
 }
 
 #marseille .container{
@@ -869,6 +897,7 @@ float:top;
 text-align:center;
 border-radius:10px 10px 0px 0px;
 margin-left:2px;
+object-fit:cover;
 }
 #marseille .cadre p{
 float:bottom;
@@ -886,6 +915,7 @@ text-align:left;
     height:175px;
     text-align:center;
     border-radius:10px 0px 0px 10px;
+    object-fit:cover;
 }
 
 #populaires h5{
@@ -943,17 +973,20 @@ padding-left:15px;
     width:320px;
     height:450px;
     border-radius:20px 20px 0 0;
+    object-fit:cover;
 }
 .large3 img{
     width:320px;
     height:450px;
     border-radius:20px 20px 0 0;
+    object-fit:cover;
 }
 
 .double img{
     width:320px;
     height:175px;
     border-radius:20px 20px 0 0;
+    object-fit:cover;
 }
 
 #section_activities p{
