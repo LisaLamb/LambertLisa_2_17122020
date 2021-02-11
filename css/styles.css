@@ -26,6 +26,9 @@
     grid-gap: 20px;
   }
 
+#first{
+    border:none !important;
+}
 
 header {
     grid-column: 1 / 13;
@@ -56,6 +59,11 @@ aside{
     grid-column:7/13;
     grid-row:1;
 }
+@media only screen and (min-width:1201px) and (max-width: 1920px) {
+#loupe{
+    display:none;
+      }
+    }
 
 @media only screen and (max-width: 991px) {
     #logo {
@@ -90,6 +98,10 @@ aside{
     .containerfooter{
         display:flex !important;
         flex-direction:column !important;
+    }
+
+    #search{
+        display:none;
     }
 }
   
@@ -277,6 +289,9 @@ font-weight: bold;
         grid-row: 1;
     }
 
+    #loupe{
+        display:none;
+    }
 #bouton{
     grid-column: 6/13;
     grid-row: 1;
@@ -389,6 +404,10 @@ aside {
         font-size:9pt;
         display:flex;
         justify-content:left;
+    }
+
+    #search{
+        display: none;
     }
 
     .containerfooter{
@@ -530,13 +549,21 @@ aside {
     margin-bottom:20px;
 }
 
-@media only screen and (min-width:496px) and (max-width: 565px) {
+ only screen and (min-width:496px) and (max-width: 565px) {
 #flex{
     flex-direction: column;
 }
 
+#search{
+    display:none;
+}
+
 #populaires .fas.fa-chart-line{
     margin-left:100px !important;
+}
+
+#search{
+    display:none;
 }
 }
 
@@ -579,6 +606,10 @@ aside {
     #marseille .cadre{
         width:225px !important;
         height:220px !important;
+    }
+
+    #search{
+        display:none;
     }
 
     #marseille img{
@@ -651,6 +682,10 @@ aside {
         text-align: center;
         border-radius: 10px 0px 0px 10px;
         object-fit:cover;
+    }
+
+    #search{
+        display:none;
     }
 
     html #populaires .cadrelong {
@@ -734,6 +769,10 @@ aside {
         text-align: center;
         border-radius: 10px 0px 0px 10px;
         object-fit:cover;
+    }
+
+    #search{
+        display:none;
     }
     html #populaires .cadrelong .photo img{
         max-width: 100px !important;
