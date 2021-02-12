@@ -549,7 +549,7 @@ aside {
     margin-bottom:20px;
 }
 
- only screen and (min-width:496px) and (max-width: 565px) {
+ @media only screen and (min-width:496px) and (max-width: 565px) {
 #flex{
     flex-direction: column;
 }
@@ -580,6 +580,10 @@ aside {
         text-align: center;
         border-radius: 10px 0px 0px 10px;
         object-fit:cover;
+    }
+
+     #section_activities .large1, #section_activities .large2, #section_activities .large3, #section_activities .large4, #section_activities .double{
+        margin-left:0px !important;
     }
 
     html #populaires .cadrelong {
@@ -684,6 +688,10 @@ aside {
         object-fit:cover;
     }
 
+    #section_activities .large1, #section_activities .large2, #section_activities .large3, #section_activities .large4, #section_activities .double{
+        margin-left:0px !important;
+    }
+
     #search{
         display:none;
     }
@@ -769,6 +777,10 @@ aside {
         text-align: center;
         border-radius: 10px 0px 0px 10px;
         object-fit:cover;
+    }
+
+    #section_activities .large1, #section_activities .large2, #section_activities .large3, #section_activities .large4, #section_activities .double{
+        margin-left:0px !important;
     }
 
     #search{
