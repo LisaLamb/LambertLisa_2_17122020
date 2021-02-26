@@ -267,10 +267,10 @@ font-weight: bold;
     border:1px solid;
     border-color:lightgray lightgray lightgray #DEEBFF;
     max-height:42px;
-    max-width:150px;
+    max-width:90%;
     border-radius:30px;
 }
-@media only screen and (min-width:993px) and (max-width: 1200px){
+@media only screen and (min-width:993px) and (max-width: 1428px){
 
     .container {
         display: grid;
@@ -1056,7 +1056,7 @@ padding-left:15px;
 
 .large1{
 border: solid 1px #F2F2F2;
-width:320px;
+width:300px;
 background-color:#fff;
 border-radius:20px;
 padding:0px;
@@ -1068,7 +1068,7 @@ box-shadow: 5px 5px 5px #F2F2F2;
 
 .large3{
     border: solid 1px #F2F2F2;
-    width:320px;
+    width:300px;
     background-color:#fff;
     border-radius:20px;
     padding:0px;
@@ -1085,7 +1085,7 @@ box-shadow: 5px 5px 5px #F2F2F2;
     background-color:#fff;
     border-radius:20px;
     padding:0px;
-    margin-left:10px;
+    margin-left:0px;
     padding-bottom:10px;
     margin-bottom:20px;
     box-shadow: 5px 5px 5px #F2F2F2;
