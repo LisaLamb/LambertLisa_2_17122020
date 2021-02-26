@@ -1098,10 +1098,12 @@ footer{
 
 #footer a{
     color:#212529;
+    text-decoration:none;
 }
 
 #footer ul li{
     list-style-type: none;
+    text-decoration:none;
 }
 
 #footer ul{
