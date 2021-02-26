@@ -420,6 +420,10 @@ aside {
         border-top:none;
 
     }
+    nav a.grey{
+        border-bottom:2px solid lightgray;
+        width:150px !important;
+    }
 
     .container {
         display: grid;
@@ -569,6 +573,10 @@ aside {
 #search{
     display:none;
 }
+nav a.grey{
+    border-bottom:2px solid lightgray;
+    width:150px !important;
+}
 }
 
 @media only screen and (min-width:376px)and (max-width: 495px){
@@ -673,6 +681,11 @@ aside {
         display:flex!important;
         flex-direction:column !important;
         }
+
+    nav a.grey{
+            border-bottom:2px solid lightgray;
+            width:150px !important;
+        }
     }
 
 
@@ -743,6 +756,11 @@ aside {
         color:#0065FC;
         border-bottom: 2px solid #0065FC;
         border-top:none;
+    }
+
+    nav a.grey{
+        border-bottom:2px solid lightgray;
+        width:150px !important;
     }
 
    #populaires{
