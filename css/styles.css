@@ -809,6 +809,9 @@ aside {
         display:flex;
     }
 
+    #section_filter .container{
+        grid-auto-rows: minmax(50px, auto) !important;
+    }
     .texte h5, .texte p, .texte span, .texte p.small{
         margin:0px;
         padding:0px;
@@ -845,7 +848,15 @@ aside {
         color:#0065FC;
         border-bottom: 2px solid #0065FC;
         border-top:none;
+        width:150px !important;
     }
+
+    nav a.grey{
+        border-bottom:2px solid lightgray;
+        width:150px !important;
+    }
+
+    
 
    #populaires{
         margin-left:0px !important;
